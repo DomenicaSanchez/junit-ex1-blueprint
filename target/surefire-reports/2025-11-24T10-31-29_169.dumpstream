@@ -1,0 +1,5 @@
+# Created at 2025-11-24T10:31:29.450
+Boot Manifest-JAR contains absolute paths in classpath 'e:\Users\Camila\Documents\01_Universidad\01_Repositorios\Verificacion\junit-ex1-blueprint\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

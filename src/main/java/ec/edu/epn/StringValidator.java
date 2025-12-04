@@ -4,6 +4,7 @@ public class StringValidator {
 
     /**
      * Checks if a string is null or empty.
+     * 
      * @param input The string to check.
      * @throws IllegalArgumentException if the input is null or empty.
      */
@@ -15,5 +16,14 @@ public class StringValidator {
             throw new IllegalArgumentException("Input cannot be empty.");
         }
     }
-    
+
+    public boolean isPalindrome(String input) {
+        if (input == null) {
+            return false;
+        }
+        String cleaned = input.replaceAll("\\s+", "").toLowerCase();
+        String reversed = new StringBuilder(cleaned).reverse().toString();
+        return cleaned.equals(reversed);
+    }
+
 }
